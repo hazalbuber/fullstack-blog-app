@@ -1,0 +1,14 @@
+.dashboard {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0;
+  isolation: isolate;
+
+  position: relative;
+  background: #f8f8fa;
+  box-sizing: border-box;
+
+  width: 100%;
+  height: auto;
+}

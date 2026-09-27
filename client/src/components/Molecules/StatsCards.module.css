@@ -1,0 +1,177 @@
+.frame42 {
+  /* Frame 42 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 36px;
+  gap: 16px;
+
+  width: 324.5px;
+  height: 188px;
+
+  /* white */
+  background: #ffffff;
+  border-radius: 16px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+
+.frame40 {
+  /* Frame 40 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 77px;
+
+  width: 252.5px;
+  height: 76px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.frame41 {
+  /* Frame 41 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+
+  width: 215px;
+  height: 24px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame39 {
+  /* Frame 39 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+
+  width: 119px;
+  height: 76px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.icon {
+  /* Icon */
+
+  width: 60px;
+  height: 60px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.group {
+  /* Group */
+
+  position: absolute;
+  left: 81.78%;
+  right: 5.54%;
+  top: 34.21%;
+  bottom: 34.21%;
+}
+
+.totalUser {
+  /* Total User */
+
+  width: 119px;
+  height: 24px;
+
+  /* text-md/lineHeight-6/font-medium */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  /* blue/500 */
+  color: #676795;
+
+  mix-blend-mode: normal;
+  opacity: 0.7;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.total {
+  /* 40,689 */
+
+  width: 119px;
+  height: 36px;
+
+  /* text-3xl/lineHeight-9/font-semibold */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+  /* identical to box height, or 120% */
+
+  /* blue/900 */
+  color: #02024e;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.text {
+  /* 8.5% Up from yesterd */
+
+  min-width: 183px;
+  height: 24px;
+
+  /* text-md/lineHeight-6/font-medium */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  /* brand/900 */
+  color: #00aeef;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}

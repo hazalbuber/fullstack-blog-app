@@ -1,0 +1,94 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 72px;
+  gap: 48px;
+
+  position: absolute;
+  width: 587px;
+  height: 671px;
+  left: 1051px;
+  top: calc(50% - 671px / 2);
+
+  /* white */
+  background: #ffffff;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 36px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  z-index: 1;
+}
+
+
+.top {
+  width: 443px;
+  height: 86px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.header {
+  position: absolute;
+  width: 178px;
+  height: 48px;
+  left: 72px;
+  top: 110px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 48px;
+  /* identical to box height, or 87% */
+
+  /* blackAlpha/900 */
+  color: rgba(0, 0, 0, 0.92);
+}
+
+.text {
+  position: absolute;
+  width: 443px;
+  height: 38px;
+  left: 72px;
+  top: 72px;
+}
+
+.text1 {
+  color: var(--blackAlpha-900, rgba(0, 0, 0, 0.92));
+  /* text-xl/lineHeight-7/font-normal */
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  top: 6px;
+}
+
+.text2 {
+  position: absolute;
+  width: 77px;
+  height: 32px;
+  left: 376px;
+  top: 6px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.color1 {
+  color: #676795;
+}
+
+.color2 {
+  color: #4641e0;
+}

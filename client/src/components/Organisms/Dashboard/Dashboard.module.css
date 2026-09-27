@@ -1,0 +1,60 @@
+.frame46 {
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 36px;
+  gap: 36px;
+
+  width: 1478px;
+  height: 1194.12px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.header {
+  /* Dashboard */
+
+  min-width: 193px;
+  height: 40px;
+  padding: 36px;
+  /* text-4xl/lineHeight-10/font-bold */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  /* identical to box height, or 111% */
+
+  /* blue/900 */
+  color: #02024e;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.cards {
+  /* Frame 44 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 36px;
+
+  width: 1406px;
+  height: 188px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}

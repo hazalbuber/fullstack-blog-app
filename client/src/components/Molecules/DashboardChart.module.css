@@ -1,0 +1,22 @@
+.frame48 {
+  /* Frame 48 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 36px;
+  gap: 24px;
+
+  width: 1406px;
+  height: 482.12px;
+
+  background: #ffffff;
+  border-radius: 16px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
+}

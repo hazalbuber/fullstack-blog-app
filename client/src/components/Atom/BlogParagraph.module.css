@@ -1,0 +1,102 @@
+.heading {
+  width: 871px;
+  height: 28px;
+
+  /* text-xl/lineHeight-7/font-medium */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  /* identical to box height, or 140% */
+
+  /* blue/900 */
+  color: #02024e;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.paragraph {
+  width: 871px;
+  height: 84px;
+
+  /* text-lg/lineHeight-7/font-normal */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+
+  /* blue/500 */
+  color: #676795;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 14px;
+
+  width: 871px;
+  height: 126px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.mainFrame {
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 75px;
+
+  width: 871px;
+  height: 752px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.mainHeading {
+  position: absolute;
+  width: 1280px;
+  height: 60px;
+  left: calc(50% - 1280px / 2);
+  top: 509px;
+
+  /* text-6xl/lineHeight-none/font-semibold */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 60px;
+  /* identical to box height, or 100% */
+
+  /* blue/900 */
+  color: #02024e;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  z-index: 3;
+}

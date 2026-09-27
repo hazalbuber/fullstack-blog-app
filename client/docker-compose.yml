@@ -1,0 +1,26 @@
+version: "3.8"
+services:
+  client:
+    image: elifhazal/frontend-app:latest
+    build: .
+    container_name: client
+    ports:
+      - "4000:4000"
+    env_file:
+      - .env
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+
+# services:
+#   app:
+#     image: git.dt.net.tr:5050/tasks/elif.hazal.buber/blog-app:dev
+#     container_name: "blog-app"
+#     restart: always
+#     environment:
+#       - PORT
+#       - REACT_APP_API_URL
+#     ports:
+#       - "4000:4000"
+# networks:
+#   default:
+#     name: blog-network

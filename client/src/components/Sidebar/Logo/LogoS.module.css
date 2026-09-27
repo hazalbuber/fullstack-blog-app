@@ -1,0 +1,35 @@
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  gap: 6px;
+
+  width: 100%; /* Konteyner genişliğine uyumlu */
+  max-width: 120px; /* Gereksiz büyümeyi engeller */
+  height: auto; /* İçeriğe göre yükseklik */
+  aspect-ratio: 4 / 1; /* Genişlik-yükseklik oranını korur */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  z-index: 0;
+}
+
+.logoText {
+  width: 57.13px;
+  height: 20px;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.ellipse {
+  width: 24px;
+  height: 24px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}

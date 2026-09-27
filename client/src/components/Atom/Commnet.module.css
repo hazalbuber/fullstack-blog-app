@@ -1,0 +1,131 @@
+.frame {
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+
+  width: 1280px;
+  height: 80px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.textArea {
+  /* Textarea
+
+The Textarea component allows you to easily create multi-line text inputs.
+*/
+
+  box-sizing: border-box;
+
+  width: 1134px;
+  height: 80px;
+
+  /* white */
+  background: #ffffff;
+  /* blue/50 */
+  border: 1px solid #e6e6ed;
+  border-radius: 6px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+}
+.textArea::placeholder {
+  /* .content */
+
+  position: absolute;
+  height: 20px;
+  left: 12px;
+  right: 12px;
+  top: calc(50% - 20px / 2 - 22px);
+
+  /* text-sm/lineHeight-5/font-normal */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  /* blackAlpha/500 */
+  color: rgba(0, 0, 0, 0.36);
+}
+.content {
+  /* .content */
+
+  position: absolute;
+  height: 20px;
+  left: 12px;
+  right: 12px;
+  top: calc(50% - 20px / 2 - 22px);
+
+  /* text-sm/lineHeight-5/font-normal */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  /* blackAlpha/500 */
+  color: rgba(0, 0, 0, 0.36);
+}
+
+.button {
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 24px;
+  gap: 8px;
+
+  width: 64px;
+  height: 48px;
+
+  /* purple/900 */
+  background: #4641e0;
+  border-radius: 6px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.photo {
+  /* Photo by Marie-Michèle Bouchard */
+
+  width: 50px;
+  height: 50px;
+
+  border-radius: 36px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.vector {
+  /* Vector 1 */
+
+  width: 0px;
+  height: 96px;
+
+  /* purple/50 */
+  border: 3px solid #edecfc;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}

@@ -1,0 +1,137 @@
+.pagination {
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 67px;
+
+  width: 1280px;
+  height: 52px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 7;
+  align-self: stretch;
+  flex-grow: 0;
+  z-index: 7;
+}
+
+.previousFrame {
+  /* Frame 14 */
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px;
+  gap: 4px;
+
+  margin: 0 auto;
+  width: 113px;
+  height: 52px;
+
+  /* blue/50 */
+  border: 1px solid #e6e6ed;
+  border-radius: 8px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.previousText {
+  /* Previous */
+
+  width: 57px;
+  height: 20px;
+
+  /* text-sm/lineHeight-5/font-normal */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  /* blue/500 */
+  color: #676795;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.nextFrame {
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px;
+  gap: 4px;
+
+  margin: 0 auto;
+  width: 88px;
+  height: 52px;
+
+  /* blue/50 */
+  border: 1px solid #e6e6ed;
+  border-radius: 8px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.nextText {
+  width: 32px;
+  height: 20px;
+
+  /* text-sm/lineHeight-5/font-normal */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  /* blue/500 */
+  color: #676795;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.text {
+  /* Page 1 of 12 */
+
+  margin: 0 auto;
+  width: 81px;
+  height: 20px;
+
+  /* text-sm/lineHeight-5/font-normal */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  /* blue/500 */
+  color: #676795;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}

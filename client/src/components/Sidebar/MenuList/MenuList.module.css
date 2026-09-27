@@ -1,0 +1,147 @@
+.container {
+  /* Frame 4 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  width: 202px;
+  max-height: 260px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  z-index: 1;
+}
+
+.container2 {
+  /* Frame 5 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  width: 202px;
+  max-height: 524px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
+  z-index: 2;
+}
+
+.container3 {
+  /* Frame 6 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  width: 202px;
+  max-height: 104px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 3;
+  align-self: stretch;
+  flex-grow: 0;
+  z-index: 3;
+}
+
+.sectionTitle {
+  /* Frame 2 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 24px;
+  gap: 20px;
+
+  width: 202px;
+  height: 56px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.sectionText {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #676795;
+}
+
+.menuItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 24px;
+  gap: 20px;
+  width: 100%;
+  height: 52px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.menuItem:hover {
+  background-color: #f3f2fd;
+}
+
+.activeItem {
+  background-color: #4641e0;
+  border-radius: 12px;
+}
+
+.inactiveItem {
+  background-color: transparent;
+}
+
+.activeText {
+  color: #edecfc;
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.inactiveText {
+  color: #02024e;
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+.text {
+  color: #02024e;
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
+.separator {
+  width: 100%;
+  height: 0;
+  border: 1px solid #e6e6ed;
+  margin: 16px 0;
+}

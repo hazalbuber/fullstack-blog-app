@@ -1,0 +1,32 @@
+.group1 {
+  width: 1334px;
+  height: 354.12px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.graph {
+  /* Group 1 */
+
+  max-width: 1334px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.unit {
+  /* units */
+
+  position: absolute;
+  left: 13.56%;
+ 
+  top: 38.08%;
+  bottom: 7.47%;
+}

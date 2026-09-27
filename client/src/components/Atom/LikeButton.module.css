@@ -1,0 +1,56 @@
+.likeContainer {
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 14px;
+  gap: 4px;
+
+  width: 73px;
+  height: 33px;
+
+  /* blue/25 */
+  background: #f8f8fa;
+  /* blue/100 */
+  border: 1px solid #ccccdc;
+  border-radius: 100px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.likeText {
+  width: 21px;
+  height: 21px;
+
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  /* identical to box height, or 21px */
+  letter-spacing: -0.03em;
+
+  /* blue/500 */
+  color: #676795;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}

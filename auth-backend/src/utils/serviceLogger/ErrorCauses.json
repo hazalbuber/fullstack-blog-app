@@ -1,0 +1,12 @@
+{
+	"clientReasons": {
+		"UserService": {
+			"001": "User creation failed"
+		}
+	},
+	"middlewareReasons": {
+		"Validator": {
+			"001": "Body validation failed"
+		}
+	}
+}

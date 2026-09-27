@@ -1,0 +1,102 @@
+.top {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 36px;
+  gap: 72px;
+  isolation: isolate;
+
+  width: 1728px;
+  height: 550px;
+
+  /* purple/900 */
+  background: #4641e0;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  z-index: 0;
+}
+
+.imagePosition {
+  position: absolute;
+  width: 385px;
+  height: 385px;
+  left: 636px;
+  top: 63px;
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  z-index: 2;
+}
+
+.image {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  background: url(Saly-1.png);
+}
+
+.textContainer {
+  width: 551px;
+  height: 269px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  z-index: 1;
+}
+
+.text {
+  position: absolute;
+  width: 548.7px;
+  height: 160px;
+  left: 38.3px;
+  top: 241px;
+
+  /* text-sm/lineHeight-5/font-normal */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+
+  color: #ffffff;
+}
+
+.headerContainer {
+  position: absolute;
+  width: 505.79px;
+  height: 83px;
+  left: 36px;
+  top: 132px;
+}
+
+.header {
+  color: #fff;
+
+  /* text-4xl/lineHeight-10/font-semibold */
+  font-family: "Inter";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px; /* 111.111% */
+  width: 206.912px;
+}
+.subHeader {
+  color: #fff;
+
+  /* text-2xl/lineHeight-8/font-normal */
+  font-family: "Inter";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 133.333% */
+  width: 505.786px;
+}

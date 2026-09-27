@@ -1,0 +1,243 @@
+.frame49 {
+  /* Frame 49 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 36px;
+  gap: 24px;
+
+  width: 1406px;
+  height: 376px;
+
+  background: #ffffff;
+  border-radius: 16px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 3;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.frame47 {
+  /* Frame 47 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 485px;
+
+  width: 1334px;
+  height: 32px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.frame29 {
+  /* Frame 29 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+
+  width: 1334px;
+  height: 248px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.dashboard {
+  /* Dashboard */
+
+  width: 150px;
+  height: 32px;
+
+  /* text-2xl/lineHeight-8/font-semibold */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+
+  /* blue/900 */
+  color: #02024e;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame50 {
+  /* Frame 50 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0px;
+  gap: 12px;
+
+  width: 678px;
+  height: 32px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.buttonCreate {
+  /* Button */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 12px;
+  gap: 8px;
+
+  width: 99px;
+  height: 32px;
+
+  /* purple/100 */
+  background: #dad9f9;
+  border-radius: 6px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.childerenCreate {
+  /* .children */
+
+  width: 53px;
+  height: 24px;
+
+  /* text-md/lineHeight-6/font-semibold */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  display: flex;
+  align-items: center;
+
+  /* purple/800 */
+  color: #5954e3;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.addIcon {
+  /* .right-icon */
+
+  width: 14px;
+  height: 14px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.buttonFilter {
+  /* Button */
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 12px;
+  gap: 8px;
+
+  width: 86px;
+  height: 32px;
+
+  /* blue/200 */
+  border: 1px solid #b3b3ca;
+  border-radius: 6px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  background-color: #f8f8fa;
+}
+
+.textFilter {
+  /* .children */
+
+  width: 40px;
+  height: 24px;
+
+  /* text-md/lineHeight-6/font-semibold */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  display: flex;
+  align-items: center;
+
+  /* blue/800 */
+  color: #1b1b60;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.filterIcon {
+  /* .right-icon */
+
+  width: 14px;
+  height: 14px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.row {
+  background-color: #e6e6ed;
+}
+
+.header {
+  color: #4e4e83;
+  width: 266.8px; 
+}
+
+.text {
+  color: #353571;
+}

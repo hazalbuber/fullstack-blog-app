@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Secrets / environment
+.env
+.env.*
+**/.env
+**/.env.*
+secret.yaml
+**/secret.yaml
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Logs
+*.log
+
+# Build outputs
+build/
+dist/
+**/build/
+**/dist/

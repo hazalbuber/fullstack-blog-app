@@ -1,0 +1,15 @@
+.dashboard {
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  isolation: isolate;
+
+  position: relative;
+  width: 1728px;
+  height: 1117px;
+
+  /* blue/25 */
+  background: #f8f8fa;
+}

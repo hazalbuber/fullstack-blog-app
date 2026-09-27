@@ -1,0 +1,91 @@
+.frame {
+  /* Frame 13 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 45px 0px 0px;
+  gap: 16px;
+
+  width: 1280px;
+  height: 659px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  z-index: 1;
+}
+
+.frame2 {
+  /* Frame 17 */
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 45px 0px;
+  gap: 16px;
+
+  width: 1280px;
+  height: 614px;
+
+  /* blue/50 */
+  border-top: 1px solid #e6e6ed;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.container {
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 0px 12px;
+  gap: 80px;
+
+  width: 1280px;
+  height: 52px;
+
+  /* blue/50 */
+  border-bottom: 1px solid #e6e6ed;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.heading {
+  /* Heading */
+
+  width: 1280px;
+  height: 32px;
+
+  /* text-2xl/lineHeight-8/font-semibold */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+
+  /* blue/900 */
+  color: #02024e;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}

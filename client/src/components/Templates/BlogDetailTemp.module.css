@@ -1,0 +1,21 @@
+.image {
+/* Image */
+
+position: absolute;
+width: 1920px;
+height: 1080px;
+left: 0px;
+top: -386px;
+
+background: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 47.12%, #FFFFFF 91.35%), url(Image.jpg);
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+z-index: 2;
+
+}
+
+
+
